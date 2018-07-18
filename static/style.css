@@ -1,0 +1,105 @@
+body{
+	font: 15px/1.5 Ariel, Helvetica, Adobe Arabic;
+	padding: 0;
+	margin: 0;
+	background-color:#f4f4f4;
+}
+
+header h1{
+		background-color: #306eff;
+		color:#fff;
+		text-align: center;
+}
+header h3{
+	text-align: center;
+	color: #306eff;
+}
+header img{
+	width: 10%;
+	height: 80px;
+}
+#content{
+	background-color: #eeeeee;
+	width: 100%;
+}
+.box{
+	float: left;
+}
+
+.dp{
+	width: 40%;
+	border-radius: 100%;
+	background-color: #fff;
+	text-align: center;
+	margin: auto;
+	height: 90px;
+}
+.dp img{
+	margin-top: 20px;
+	width: 70%;
+}
+#team, #tags{
+	width: 20%;
+	margin: 20px 10px;
+}
+#team{
+	background-color: #306eff;
+}
+#team h3, #tags h3{
+	width: 90%;
+	background-color: #dddddd;
+	margin: 10px 10px;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+	text-align:center;
+	color: #306eff;
+}
+#names span{
+	width: 80%;
+	background-color: #dddddd;
+	border-radius: 10px;
+	border: solid 1px #ccc;
+	margin: 10px 0px 10px 20px;
+	display: block;
+	text-align: center;
+	padding: 5px 0px;
+}
+#tag li{
+	width: 98%;
+	border-radius: 20px;
+	display: block;
+	background-color: #dddddd;
+	margin-bottom: 10px;
+	text-align: left;
+	padding: 5px;	
+	font-size: 12px;
+}
+#tags span{
+	color: #fbb117;
+	margin-right: 5px;
+	padding: 5px;
+	border-radius: 20px;
+	border: solid 1px #ccc;
+}
+
+#feed{
+	background-color: #dddddd;
+	width: 50%;
+	text-align: center;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+	margin: 20px 10px 20px 20px;
+}
+#feed img{
+	width: 90%;
+}
+#content:after, header:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+footer{
+	text-align: center;
+	background-color: #306eff;
+	color: #fff;	
+	padding: 20px 0px;	
+}

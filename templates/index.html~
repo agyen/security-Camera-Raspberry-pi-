@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Security camera live feed</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+
+<body>
+	<header>
+		<h1>SECURITY CAMERA LIVE STEAMING</h1>
+		<h3>Who watches the Watchman</h3>
+	</header>
+
+	<div id="content">	
+		<div id="team" class="box"> 
+			<h3>Team members</h3>
+			<div id="names">
+						<div  class="dp"><img src="static/Images/17241-200.png" alt="Profile Image here"></div>
+						<span>Shadrack</span>
+						<div  class="dp"><img src="static/Images/17241-200.png" alt="Profile Image here"></div>
+						<span>Isaac</span>
+						<div  class="dp"><img src="static/Images/17241-200.png" alt="Profile Image here"></div>
+						<span>John</span>
+
+			</div>
+			
+		</div>
+
+		<div id="feed" class="box">
+			<img id="bg" src="{{ url_for('video_feed') }}">
+		</div>
+		<button class="btn" id="btn1">Facebook</button>
+			<button class="btn" id="btn1">Facebook</button>
+			<button class="btn" id="btn1">Facebook</button>
+		<div id="tags" class="box">	
+		 	<h3>Special Thanks to: </h3>
+			<div id="tag">
+				<nav>
+					<ul>
+						<li><span>Tag</span> | # Global code</li>
+						<li><span>Tag</span> | # Mark Walsh</li>
+						<li><span>Tag</span> | # Steven</li>
+						<li><span>Tag</span> | # Gjeta</li>
+						<li><span>Tag</span> | # UCC</li>
+						<li><span>Tag</span> | # HackerShack</li>
+					</ul>
+				</nav>
+			</div>
+			
+		</div>
+		</div>
+		
+<footer>
+			
+			camteam@gmail.com (Global code summer training)<br>
+			Copyright &copy; 2018<br>
+</footer>
+
+	</body>
+
+</html>
