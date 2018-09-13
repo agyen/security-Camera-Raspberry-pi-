@@ -36,7 +36,7 @@ def tweet_send():
     #except tweepy.TweepError as error:
         #if error.api_code == 187:
             # Do something special
-            #tweet_send(message)
+            # tweet_send(message)
         #else:
            #raise error
     tweet_send('security camera update @AbuoNana')        
