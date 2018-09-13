@@ -5,7 +5,7 @@
 import tweepy
 
 def tweet_send(message):
-# personal details
+    # personal details
     consumer_key ="PrVAMU3WgCL8yRyU0P8fnc1yU"
     consumer_secret ="NUkAq6Y16N5FrPX2hsvRAQcn3B0mU85b3xyzHUmMpu0Vt6otBo"
     access_token ="947744588697042945-AVjCrdprkbLGDr8RCxMC3XmO6ehQDXr"
@@ -19,7 +19,7 @@ def tweet_send(message):
     api = tweepy.API(auth)
 
     # update the status
-    tweet = message
-    api.update_status(status = tweet)
+    # tweet = message
+    api.update_status(status = message) # in case encounter failure, set status = message and uncomment prev assignment
 
-tweet_send('Sec. Cam Update @_the_ike')
+tweet_send('ALARM!, Security piCam Update ... someone might be on your doorstep pls @_the_ike')
